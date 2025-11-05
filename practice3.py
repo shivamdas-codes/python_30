@@ -38,6 +38,7 @@ else:
     print("no fee")
 
 
+
 # this codes comes under teernary operator in python 
 # we can write in two ways 
 food = input("food :")
