@@ -16,6 +16,13 @@ name = "shivam das"
 age = 21
 # the value which was written inside the strings are assigned by some name and number that represents the value of the given variable 
 
+
+
+name = "shivam"
+print (name[0:3])
+# the above code says about the lenght of the string in positive manner
+
+
 print(name)
 print(age) 
 print(name,age)
