@@ -1,4 +1,4 @@
-# arthmetic operators 
+# ARTHMETICAL OPERATORS 
 # Example : 1
 a = 10
 b = 5
@@ -24,7 +24,7 @@ print(a%b)
 
 
 
-# relational operators
+# RELATIONAL OPERATORS
 a = 5
 b = 10
 print(a==b)
@@ -42,3 +42,40 @@ print(a<=b)
 
 
 
+# ASSIGNMENT OPERATORS/COMPOUND ASSIGNMENT OPERATORS
+# we can write the assignment operator in 3 ways
+a = 5
+b = 10
+a += b
+print(a)
+print(b)
+# or
+num = 5
+num = num + 10
+print(num)
+# or
+num = 5
+num += 10
+print(num)
+
+
+# compound assignment operators examples......
+num = 33
+num += 7
+print(num)
+# add and assign
+num = 33
+num -= 7
+print(num)
+# subtract and assign
+num = 33
+num *= 7
+print(num)
+# multiply and assign
+num = 33
+num /= 7
+print(num)
+# divide and assign
+num = 33
+num %= 7
+print(num)
