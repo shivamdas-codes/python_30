@@ -15,3 +15,15 @@ print("my name is ",name," and my age is ",age)
 name = input("name : ")
 package = float(input("package : "))
 print("my name is ",name," and my package is ",package)
+
+
+
+
+# example program
+my_name = input("enter name : ")
+my_age = int(input("enter age : "))
+my_height = float(input("enter height : "))
+
+print("hey iam :",my_name)
+print("my age is :",my_age)
+print("my height is :",my_height)
