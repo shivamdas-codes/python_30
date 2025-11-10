@@ -1,4 +1,4 @@
-#(1).write a program to input 2 numbers and print their sum, difference, product, quotient and remainder
+"""#(1).write a program to input 2 numbers and print their sum, difference, product, quotient and remainder
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 
@@ -36,4 +36,14 @@ num4 = int(input("Enter fourth number: "))
 
 the_average = (num1 + num2) / 2
 print("Average:", the_average)
-print("Average:", (num3 + num4) / 2)
+print("Average:", (num3 + num4) / 2)"""
+
+
+
+#(4).write a program to input 2 int numbers, a and b print true if a is greater than or equal to b otherwise print false
+var_a  = int(input("Enter first integer (a): "))
+var_b  = int(input("Enter second integer (b): "))
+if var_a >= var_b:
+    print("True")
+else:
+    print("False")
