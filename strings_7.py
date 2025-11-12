@@ -59,3 +59,11 @@ print(str3[:6])   # prints 'python'
 print(str3[7:])   # prints 'programming'
 # this means if we don't provide starting index it will consider it as 0
 # and if we don't provide ending index it will consider it as length of the string
+
+
+
+# 5.negative slicing in strings
+str = "hello world"
+print(str[-5:-1])   # prints 'worl'
+print(str[-11:-6])  # prints 'hello'
+# negative slicing starts from the end of the string where -1 is the last character
