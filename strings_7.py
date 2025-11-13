@@ -90,3 +90,12 @@ str5 = str4.capitalize()
 print(str5)               # capitalized string is stored in a new variable
 
 
+# ex:3 [replace()]
+str1 = "hello world"
+print(str1.replace("world", "python"))  # replaces 'world' with 'python'
+
+new_str = str1.replace("hello", "hi")
+print(new_str)                           # stores the replaced string in a new variable
+print(str1)                             # original string remains unchanged
+
+
