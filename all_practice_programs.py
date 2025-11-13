@@ -50,11 +50,18 @@
 
 
 
-# (5).write a program to input users first name and print its length
-user_1 = input("first name :")
-firstname = len(user_1)
-print(firstname)
-print(len(user_1))   # prints the length of the string
+# # (5).write a program to input users first name and print its length
+# user_1 = input("first name :")
+# firstname = len(user_1)
+# print(firstname)
+# print(len(user_1))   # prints the length of the string
 
 
 
+# (6).write a program to find the occerrences of S in a string
+str1 = input("enter string :")
+count = str1.count("s")
+print("Occurrences of 's':", count)   # prints the number of occurrences of 's' in the string
+
+str2 = "this is shivam das"
+print(str2.count("s"))   # prints the number of occurrences of 's' in the string
