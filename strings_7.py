@@ -71,7 +71,22 @@ print(str[-11:-6])  # prints 'hello'
 
 
 # 6.string functions/methods
+# ex:1 [endswith()]
 str1 = "hello world"
 print(str1.endswith("world"))   # returns True if the string ends with the specified suffix
 print(str1.endswith("hello"))  # returns false if the string ends with the specified prefix
+
+
+# ex:2 [capitalize()]
+str2 = "hello world"
+print(str2.capitalize())   # capitalizes the first character of the string
+
+str3 = "python programming"
+print(str3.capitalize())   # capitalizes the first character of the string 
+print(str3)               # original string remains unchanged
+
+str4 = "shivam das"
+str5 = str4.capitalize()
+print(str5)               # capitalized string is stored in a new variable
+
 
