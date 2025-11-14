@@ -106,15 +106,27 @@
 
 
 
-num = 100
-if(num >= 2):
-    print("true")
-if(num < 10):
-    print("true")   
-if(num == 5):
-    print("true")
-elif(num != 5):
-    print("false")
+# num = 100
+# if(num >= 2):
+#     print("true")
+# if(num < 10):
+#     print("true")   
+# if(num == 5):
+#     print("true")
+# elif(num != 5):
+#     print("false")
+# else:
+#     print("none")
+
+
+
+voter_age = int(input("Enter your age: "))
+if voter_age >= 18:
+    print("You are eligible to vote.")
+# if voter_age < 18:
+#     print("You are not eligible to vote.")    
+# elif voter_age == 18:
+#     print("You have just become eligible to vote.")
 else:
-    print("none")
+    print("Invalid age entered.")    
             
