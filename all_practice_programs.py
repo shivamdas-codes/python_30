@@ -98,14 +98,19 @@
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 num3 = int(input("Enter third number: "))
+num4 = int(input("Enter fourth number: "))
+
 if num1 >= num2 and num1 >= num3:
     greatest = num1
-    print("The greatest number is:", num1)
+    print("The greatest number is a:", num1)
 elif num2 >= num1 and num2 >= num3:
     greatest = num2
-    print("The greatest number is:", num2)  
+    print("The greatest number is b:", num2)  
 elif num3 >= num1 and num3 >= num2:
     greatest = num3
-    print("The greatest number is:", num3)
+    print("The greatest number is c:", num3)
+elif num4 >= num1 and num4 >= num2 and num4 >= num3:
+    greatest = num4
+    print("The greatest number is d:", num4)
 else:
     print("All numbers are equal.")
